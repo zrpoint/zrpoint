@@ -71,19 +71,28 @@ margin-bottom:25px;
 }
 
 .card{
-background:#1b1b1b;
-padding:16px;
-margin:12px 0;
-border-radius:12px;
+.card{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(12px);
+border:1px solid rgba(255,215,0,0.4);
+border-radius:18px;
+padding:18px 20px;
+margin:15px 0;
 display:flex;
 justify-content:space-between;
+align-items:center;
 font-size:22px;
-border:1px solid #333;
+transition:0.3s;
+box-shadow:0 0 15px rgba(255,215,0,0.15);
 }
 
 .card:hover{
-background:#242424;
+transform:translateY(-5px);
+box-shadow:0 0 25px gold;
+border-color:gold;
 }
+
+
 
 .btn{
 display:block;
@@ -117,24 +126,21 @@ font-size:15px;
 <h1>🔥 ZR POINT 🔥</h1>
 
 <p>Free Fire Almaz Satışı</p>
+<div class="card"><span>💎 110 Diamond</span><strong>2 AZN</strong></div>
+<div class="card"><span>💎 220 Diamond</span><strong>4 AZN</strong></div>
+<div class="card"><span>💎 341 Diamond</span><strong>5 AZN</strong></div>
+<div class="card"><span>💎 572 Diamond</span><strong>8 AZN</strong></div>
+<div class="card"><span>💎 682 Diamond</span><strong>10 AZN</strong></div>
+<div class="card"><span>💎 1166 Diamond</span><strong>15 AZN</strong></div>
+<div class="card"><span>💎 1763 Diamond</span><strong>24 AZN</strong></div>
+<div class="card"><span>💎 2398 Diamond</span><strong>30 AZN</strong></div>
+<div class="card"><span>💎 4792 Diamond</span><strong>60 AZN</strong></div>
+<div class="card"><span>💎 7184 Diamond</span><strong>90 AZN</strong></div>
 
-<div class="card"><span>💎110</span><span>2 AZN</span></div>
-<div class="card"><span>💎220</span><span>4 AZN</span></div>
-<div class="card"><span>💎341</span><span>5 AZN</span></div>
-<div class="card"><span>💎572</span><span>8 AZN</span></div>
-<div class="card"><span>💎682</span><span>10 AZN</span></div>
-<div class="card"><span>💎1166</span><span>15 AZN</span></div>
-<div class="card"><span>💎1763</span><span>24 AZN</span></div>
-<div class="card"><span>💎2398</span><span>30 AZN</span></div>
-<div class="card"><span>💎4792</span><span>60 AZN</span></div>
-<div class="card"><span>💎7184</span><span>90 AZN</span></div>
-<div class="card"><span>📅 Mini Həftəlik</span><span>1 AZN</span></div>
-
-<div class="card"><span>📅 Həftəlik</span><span>3 AZN</span></div>
-
-<div class="card"><span>📅 2× Həftəlik</span><span>5 AZN</span></div>
-
-<div class="card"><span>📆 Aylıq</span><span>11 AZN</span></div>
+<div class="card"><span>📅 Mini Həftəlik</span><strong>1 AZN</strong></div>
+<div class="card"><span>📅 Həftəlik</span><strong>3 AZN</strong></div>
+<div class="card"><span>📅 2× Həftəlik</span><strong>5 AZN</strong></div>
+<div class="card"><span>📆 Aylıq Üzvlük</span><strong>11 AZN</strong></div>
 
 <a class="btn whatsapp" href="https://wa.me/994775036462">
 WhatsApp ilə Sifariş
